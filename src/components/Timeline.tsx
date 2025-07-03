@@ -1,14 +1,14 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Calendar, Heart, Gem, House, Tent } from 'lucide-react';
+import { Calendar, Baby, Gem, House, Tent } from 'lucide-react';
  
 
 const timelineEvents = [
-  { date: '19 juillet 2014', title: 'Notre rencontre', description: 'Une rencontre pleine de rebondissements', icon: Tent },
-  { date: '2 novembre 2018', title: 'Notre premier cocon', description: 'Le jour de notre emmenagement', icon: House },
-  { date: '19 juillet 2024', title: 'La demande', description: 'Une demande en mariage plus qu'attendue', icon: Gem },
-  { date: '28 août 2024', title: 'La naissance', description: 'L'arrivée de notre petit coeur adoré', icon: Gem },
-  { date: '30 avril 2026', title: 'Le grand jour', description: 'Et il vécurent heureux..', icon: Calendar },
+  { date: '19 juillet 2014', title: 'Notre rencontre', description: "Une rencontre pleine de rebondissements", icon: Tent },
+  { date: '2 novembre 2018', title: 'Notre premier cocon', description: "Le jour de notre emmenagement", icon: House },
+  { date: '19 juillet 2024', title: 'La demande', description: "Une demande en mariage plus qu'attendue", icon: Gem },
+  { date: '28 août 2024', title: 'La naissance', description: "L'arrivée de notre petit coeur adoré", icon: Baby },
+  { date: '30 avril 2026', title: 'Le grand jour', description: "Et il vécurent heureux..", icon: Calendar },
 ];
 
 interface TimelineEventProps {
