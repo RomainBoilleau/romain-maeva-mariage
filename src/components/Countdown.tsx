@@ -13,7 +13,7 @@ const Countdown = () => {
   const [isFinished, setIsFinished] = useState(false); // New state for completion check
 
   useEffect(() => {
-    const weddingDate = new Date('2025-11-08T16:00:00').getTime();
+    const weddingDate = new Date('2026-04-30T15:00:00').getTime();
 
     const updateCountdown = () => {
       const now = new Date().getTime();
