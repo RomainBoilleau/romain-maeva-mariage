@@ -138,8 +138,8 @@ const LandingSection = ({ onStartJourney }) => {
       />
 
       {/* Title */}
-      <h1 className="text-5xl font-serif text-gray-800 mt-40 mb-4">Sarah & Michael</h1>
-      <p className="text-xl text-gray-600 mb-8">Are getting married</p>
+      <h1 className="text-5xl font-serif text-gray-800 mt-40 mb-4">Romain & Mäeva</h1>
+      <p className="text-xl text-gray-600 mb-8">Vont se marrier</p>
 
       {/* Start Journey Button with Smooth Scroll */}
       <motion.button
